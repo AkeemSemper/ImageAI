@@ -2,6 +2,7 @@ from imageai.Detection import VideoObjectDetection
 import os
 import cv2
 
+
 execution_path = os.getcwd()
 
 camera = cv2.VideoCapture(0)
